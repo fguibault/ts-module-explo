@@ -1,0 +1,23 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "Basic math package to experiment with modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numericelements/curves-and-surfaces.git"
+  },
+  "keywords": [
+    "math",
+    "module"
+  ],
+  "author": "Francois Guibault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/numericelements/curves-and-surfaces/issues"
+  },
+  "homepage": "https://github.com/numericelements/curves-and-surfaces#readme"
+}
