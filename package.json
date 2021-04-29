@@ -1,0 +1,25 @@
+{
+  "name": "blasjs_exemp",
+  "version": "1.0.0",
+  "description": "Tests to learn how to use BLASjs",
+  "main": "./src/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "build": "webpack",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "numerics",
+    "blas"
+  ],
+  "author": "Francois Guibault",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "blasjs": "^1.0.13",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
